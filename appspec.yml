@@ -1,0 +1,9 @@
+version: 0.0
+Resources:
+  - MyFunction:
+      Type: AWS::Lambda::Function
+      Properties:
+        Name: CodeTools
+        Alias: live
+        CurrentVersion: version1
+        TargetVersion: version2
